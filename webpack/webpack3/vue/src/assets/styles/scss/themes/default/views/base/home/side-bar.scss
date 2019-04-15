@@ -1,0 +1,18 @@
+@import "../../../../../common/colors.scss";
+@import "../../../../../mixins/utils.scss";
+@import "../../../common/var.scss";
+
+.sidebar{
+  border-color: #eef1f6;
+  border-right-width: 1px;
+  border-right-style: solid;
+  background-color: #eef1f6;
+}
+.el-menu {
+  border-right: solid 1px #eef1f6;
+}
+.el-menu-vertical-demo:not(.el-menu--collapse) {
+}
+.el-menu--collapse {
+  width: 60px;
+}

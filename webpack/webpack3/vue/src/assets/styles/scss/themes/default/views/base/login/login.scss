@@ -1,0 +1,91 @@
+@import "../../../../../common/colors.scss";
+@import "../../../../../mixins/utils.scss";
+@import "../../../common/var.scss";
+
+.mainLogin {
+  width: 100vw;
+  height: 100vh;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  background-color: $blue;
+  background: -webkit-radial-gradient($white, $blue400);
+  background: -o-radial-gradient($white, $blue400);
+  background: -moz-radial-gradient($white, $blue400);
+  background: radial-gradient($white, $blue400);
+  background-repeat:no-repeat;
+  background-size:100%;
+  & .login-container {
+    background: $white;
+     -webkit-border-radius: 5px;
+     border-radius: 5px;
+     -moz-border-radius: 5px;
+     background-clip: padding-box;
+     position: absolute;
+     margin: auto;
+     top: 0;
+     left: 0;
+     bottom: 0;
+     right: 0;
+     width: 30%;
+     height: 40%;
+     min-height: 26rem;
+     min-width: 400px;
+     background: $white;
+     @include depth(10);
+     //头部
+     .form-title-wrap {
+       display: block;
+       height: 30%;
+       background-color: $blue;
+       text-align: center;
+       color: $white;
+       margin-bottom: 16px;
+       border-radius: 5px 5px 0 0;
+       .form-title {
+         font-size: 26px;
+         font-weight: 600;
+         font-family: Microsoft YaHei;
+         letter-spacing: 2px;
+         height: 60%;
+         line-height: 300%;
+       }
+       .form-subtitle {
+         font-weight: 900;
+         height: 28%;
+         font-size: 18px;
+         font-family: SimSun;
+         letter-spacing: 2px;
+         margin: 0;
+       }
+       .form-english{
+         font-weight: 900;
+         font-size: 14px;
+         font-family: Times New Roman;
+         letter-spacing: 10px;
+         color: $blue200;
+       }
+     }
+
+     //  表单
+     & .rule-form{
+       padding: 0 6%;
+       margin-top: 10%;
+     }
+     //记住密码
+     & .remember{
+       margin-top: -10px;
+       padding: 0 20% 1% 6%;
+     }
+
+     & .buttons{
+       padding: 0 10% 1% 10%;
+       margin-top: 2%;
+       text-align: center;
+       & .login{
+         min-width: 300px;
+         height: 40px;
+       }
+     }
+   }
+}

@@ -1,0 +1,12 @@
+{
+  "extends": "tslint-config-standard",
+  "globals": {
+    "require": true
+  },
+  "quotemark": false,
+  "semicolon": false,
+  "no-z-blank-lines": [
+    false
+  ],
+  "adjacent-overload-signatures": false
+}

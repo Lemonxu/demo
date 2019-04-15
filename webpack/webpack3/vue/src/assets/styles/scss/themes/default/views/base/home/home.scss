@@ -1,0 +1,76 @@
+@import "../../../../../common/colors.scss";
+@import "../../../common/var.scss";
+
+.main{
+  .header{
+    position: absolute;
+    height: $nav-bar;
+    width:100%;
+  }
+  .body{
+    position: absolute;
+    display: flex;
+    margin:0; /*公共*/
+    width:100%;
+    //position:fixed;/*FF IE7 SF*/
+    top:$nav-bar;
+    bottom:0;
+    overflow: auto !important;
+    // _position: relative;/**IE6***/
+    // _top:0px;
+    // _OVERFLOW-Y: hidden;
+    // _OVERFLOW-X: hidden;
+    // SCROLLBAR-FACE-COLOR: #EEEEEE;/*设置IE下滚动条颜色*/
+    // SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+    // SCROLLBAR-SHADOW-COLOR: #919192;
+    // SCROLLBAR-3DLIGHT-COLOR:#ffffff;
+    // SCROLLBAR-ARROW-COLOR: #919192;
+    // SCROLLBAR-TRACK-COLOR: #ffffff;
+    // SCROLLBAR-DARKSHADOW-COLOR: #ffffff;
+    _height:100%;
+    &:after {
+      clear: both;
+      content: "";
+    }
+    .body_header{
+      z-index: 999;
+      float: left;
+      background-color: #eef1f6;
+      height: 100%;
+      width: 200px;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    .body_body{
+      width: 100%;
+      height: 100%;
+      float: left;
+      overflow: hidden;
+      &:after {
+        clear: both;
+        content: "";
+      }
+      .body_tags{
+        width:100%;
+        height:$tags-height;
+      }
+      .body_bodys{
+        height: calc(100vh - 8rem);
+        padding:25px 10px 0 10px;
+        overflow-y:auto;
+      }
+      .body_foot{
+        width:100%;
+        background-color: #eef1f6;
+        height: $foot-height;
+        line-height: $foot-height;
+        bottom:0;
+        div{
+          text-align:center;
+          font-family: sans-serif;
+          font-size: 12px;
+        }
+      }
+    }
+  }
+}

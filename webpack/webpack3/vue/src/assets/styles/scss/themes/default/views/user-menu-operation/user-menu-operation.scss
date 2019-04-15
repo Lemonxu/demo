@@ -1,0 +1,86 @@
+.iconbox {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.iconbox .item {
+  padding: .5rem;
+  margin: .2rem;
+  border: 1px solid #eeeeee;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.iconbox .item:hover {
+  background-color: #73ccff;
+}
+.xt-left {
+  display: inline-block;
+  float: left;
+  width: 20%;
+  height: 700px;
+  background-color: #EEF1F6;
+  border: 1px solid #DFE6EC;
+}
+.xt-left-head {
+  height: 3rem;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 3rem;
+  /*color:#ffffff;*/
+  text-align: center;
+  background-color: #EEF1F6;
+}
+.xt-left-list {
+  height: 697px;
+  overflow: auto;
+}
+.xt-right {
+  display: inline-block;
+  width: 78%;
+  height: 700px;
+  border: 1px solid #E4E8F1;
+}
+.xt-right-head {
+  height: 3rem;
+  font-weight: bolder;
+  font-size: 16px;
+  line-height: 3rem;
+  /*color:#ffffff;*/
+  text-align: center;
+  background-color: #EEF1F6;
+}
+.xt-right-body {
+  /*height: 285px;*/
+  /*background-color: pink;*/
+  padding: 0.3rem 0.2rem;
+}
+.xt-form-head {
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  border: 1px solid #DFE6EC;
+  background-color: #EEF1F6;
+  /*color: #ffffff;*/
+}
+.xt-form {
+  padding: 0.3rem 0.4rem;
+  border: 1px solid #DFE6EC;
+}
+.xt-right-list {
+  padding: .1rem 0.2rem;
+  /*height: 300px;*/
+  /*background-color: yellow;*/
+}
+.xt-list-head {
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bolder;
+  border: 1px solid #DFE6EC;
+  background-color: #EEF1F6;
+  /*color: #ffffff;*/
+}

@@ -1,0 +1,45 @@
+@import "../../../../default/views/base/login/login";
+
+@import "../../../../../common/colors.scss";
+@import "../../../../../mixins/utils.scss";
+@import "../../../common/var.scss";
+
+@include theme($theme){
+  .mainLogin {
+    //@include theme($theme);
+    @extend .mainLogin;
+    background:url('../../../assets/images/yandang.jpg');
+    background-repeat:no-repeat;
+    background-size: 100% 100%;
+    & .login-container {
+      //头部
+      .form-title-wrap {
+        color: $grey600;
+        background-color: $white;
+        .form-title {
+          font-size: 35px
+        }
+        .form-subtitle {
+          font-size: 28px;
+          line-height:250%;
+          letter-spacing: 1px;
+        }
+        .form-english{
+          display: none
+        }
+      }
+
+      //  表单
+      & .rule-form{
+      }
+      //记住密码
+      & .remember{
+      }
+
+      & .buttons{
+        & .login{
+        }
+      }
+    }
+  }
+}

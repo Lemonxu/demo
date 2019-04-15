@@ -1,0 +1,18 @@
+@import "../../../../common/colors.scss";
+
+.iconbox {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.iconbox .item {
+  padding: .5rem;
+  margin: .2rem;
+  border: 1px solid #eeeeee;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.iconbox .item:hover {
+  background-color: #73ccff;
+}

@@ -1,0 +1,146 @@
+.el-col {
+  border-radius: 4px;
+}
+
+.bg-purple-dark {
+  background: #99a9bf;
+}
+
+.bg-purple {
+}
+
+.grid-content {
+  border-radius: 4px;
+  min-height: 36px;
+}
+
+.xt-height {
+  height: 41rem;
+  border-left: 1px solid #DFE6EC;
+  /*border-top: 1px solid #DFE6EC;*/
+  border-bottom: 1px solid #DFE6EC;
+  /*margin-top:1rem;*/
+}
+
+.xt-role-name {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  border-bottom: 1px solid #DFE6EC;
+}
+
+.xt-role-name:hover {
+  background-color: #E4E8F1;
+  /*color:#ffffff;*/
+  cursor: pointer
+}
+
+.xt-role-name-active {
+  background-color: #EDF7FF;
+  /*color:#ffffff;*/
+  cursor: none
+}
+
+.xt-role-menu {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  border-bottom: 1px solid #DFE6EC;
+  cursor: pointer
+}
+
+.xt-role-menu:hover {
+  background-color: #E4E8F1;
+  color: #ffffff
+}
+
+.xt-role-menu-active {
+  background-color: #EDF7FF;
+  color: #ffffff
+}
+
+.xt-role-head {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  font-family: "微软雅黑 Light";
+  font-weight: bolder;
+  font-size: 16px;
+  border-top: 1px solid #DFE6EC;
+  border-left: 1px solid #DFE6EC;
+  border-bottom: 1px solid #DFE6EC;
+  border-radius: 0rem;
+  background-color: #EEF1F6;
+  /*color:#ffffff*/
+}
+
+.xt-role-body {
+  height: 37.5rem;
+  overflow: auto;
+}
+
+.xt-role-data-body {
+  padding: 0.2rem 0.3rem;
+}
+
+.xt-role-data-list-body {
+  height: 37.2rem;
+  overflow: auto;
+}
+
+.xt-role-data-list-head {
+  height: 2rem;
+  margin-top: 0.1rem;
+  font-weight: bolder;
+  border: 1px solid #DFE6EC;
+  line-height: 2rem;
+  text-align: center;
+  background-color: #EEF1F6;
+  /*color:#ffffff*/
+}
+
+.xt-role-data-list {
+  height: 2.5rem;
+  margin-bottom: 0.1rem;
+  border: 1px solid #DFE6EC;
+}
+
+.xt-role-data {
+  height: 2.5rem;
+  line-height: 2.5rem;
+  text-align: center;
+  border-left: 1px solid #DFE6EC;
+  border-radius: 0rem;
+}
+
+.xt-inline-block {
+  display: inline-block;
+}
+
+.xt-width-full-width {
+  width: 100%;
+  /*line-height:2.5rem;*/
+}
+
+.xt-add-icon {
+  color: white;
+}
+
+.xt-no-data {
+  height: 3.5rem;
+  line-height: 3.5rem;
+  text-align: center;
+  font-size: 14px;
+  font-family: "微软雅黑 Light";
+  color: #919191;
+}
+
+.xt-role-data-list-foot {
+  margin-top: 23rem;
+  float: right;
+}
+
+.xt-role-data-list-button {
+  float: right;
+  margin-left: 0.3rem;
+}

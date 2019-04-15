@@ -1,0 +1,36 @@
+@import "../../../../../common/colors.scss";
+@import "../../../../../mixins/utils.scss";
+@import "../../../common/var.scss";
+
+.bar{
+  background-color: $blue600;
+  height: $nav-bar;
+  line-height: $nav-bar;
+  color:$white;
+  //左边菜单展开关闭
+  & .collapse{
+    cursor: pointer;
+    margin-left:8px;
+  }
+  //用户信息
+  & .userinfo{
+    float:right;
+    margin-right:5px;
+    & .userinfo-inner {
+      cursor: pointer;
+      color: $white;
+      img {
+        width: calc(#{$nav-bar} - 0.4rem);
+        height: calc(#{$nav-bar} - 0.4rem);
+        border-radius: 20px;
+        margin: 4px 0px 0px 10px;
+        float: right;
+      }
+    }
+  }
+  & .theme-select{
+    float:right;
+    width: 100px;
+    margin-right: 6px;
+  }
+}
